@@ -39,7 +39,7 @@ const saveItemToLocalStorage = (product, quantity) => {
 }
 
 const addProductToDisplay = (product, quantity) => {
-    const productContainer = document.getElementById('product-container')
+    const productContainer = document.getElementById('product-container');
     const li = document.createElement('li');
     li.innerText = `${product} : ${quantity}`;
     productContainer.appendChild(li);
